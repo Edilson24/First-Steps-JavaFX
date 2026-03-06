@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="285.0" style="-fx-background-radius: 20;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.costimernormal1.HelloController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" layoutX="49.0" prefHeight="422.0" prefWidth="250.0" style="-fx-background-radius: 20;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="FIXmino" alignment="CENTER_RIGHT" prefHeight="86.0" prefWidth="283.0" style="-fx-background-color: #606060; -fx-background-radius: 20;" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+               <padding>
+                  <Insets right="2.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </Label>
+            <GridPane hgap="5.0" prefHeight="413.0" prefWidth="281.0" style="-fx-background-color: #CAE8F6;" vgap="5.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#bDiv" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#bMult" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="x" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#bAdic" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#bMenos" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b1" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b2" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b3" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b4" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b5" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b6" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b7" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="7" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b8" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#b9" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#bPont" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="." GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#b0" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#bIgual" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #2983CD;" text="=" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="197.0" layoutY="118.0" mnemonicParsing="false" onAction="#bLimp" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="«" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="77.0" mnemonicParsing="false" onAction="#btnSen" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="sen" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnCos" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="cos" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnTan" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="tan" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="118.0" mnemonicParsing="false" onAction="#btnLog" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="log" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnPi" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="π" textFill="WHITE" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnRaiz" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="√" textFill="WHITE" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnQuadrado" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="x^2" textFill="WHITE" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnModulo" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="|x|" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnPorx" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="1/x" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnnep" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="e" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnPercentagem" prefHeight="64.8" prefWidth="83.0" style="-fx-background-radius: 30; -fx-background-color: #606060;" text="\%" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="3.0" left="2.0" right="2.0" top="2.0" />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

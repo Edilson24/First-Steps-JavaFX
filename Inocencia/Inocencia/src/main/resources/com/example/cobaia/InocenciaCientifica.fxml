@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cobaia.HelloController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" layoutY="-14.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="RESULTADO" prefHeight="90.0" prefWidth="602.0" />
+            <GridPane alignment="CENTER" prefHeight="300.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#botaon1" prefHeight="60.0" prefWidth="151.0" text="1" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="148.0" text="\%" GridPane.columnIndex="2" />
+                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="148.0" text="Delete" GridPane.columnIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#botaodivisao" prefHeight="60.0" prefWidth="148.0" text="/" GridPane.columnIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#botaosubtracao" prefHeight="60.0" prefWidth="148.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#botaon8" prefHeight="60.0" prefWidth="148.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#botaon7" prefHeight="60.0" prefWidth="148.0" text="7" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#botaonadicao" prefHeight="60.0" prefWidth="148.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#botaon0" prefHeight="60.0" prefWidth="148.0" text="0" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="297.0" text="=" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" onAction="#botaon4" prefHeight="60.0" prefWidth="148.0" text="4" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#botaon5" prefHeight="60.0" prefWidth="148.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#botaon6" prefHeight="60.0" prefWidth="148.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#botaomultiplicacao" prefHeight="60.0" prefWidth="148.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="148.0" text="Button" />
+                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="148.0" text="C" />
+                  <Button mnemonicParsing="false" onAction="#botaon2" onMouseDragReleased="#botaon2" prefHeight="60.0" prefWidth="148.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#botaon3" prefHeight="60.0" prefWidth="148.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#botaon9" prefHeight="60.0" prefWidth="148.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="164.0" text="." GridPane.columnIndex="3" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
